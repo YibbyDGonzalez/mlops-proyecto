@@ -118,3 +118,13 @@ mlops-proyecto3/
     ├── test_model_predictions.py
     └── test_airflow_dags.py
 ```
+
+## MODELO
+
+* Se carga la base de datos.
+* Se identifica el tamaño, tiene 101766 filas y, 50 columnas.
+* Se identifica que el simbolo '?' es una forma de poner un null, vacio o dato faltante. Se procede a reemplazarlo como una notacion NaN.
+* Se identifica el tipo de dato
+* Identificar el porcentaje de datos faltantes por variable.
+
+* A1Cresult y max_glu_serum son variables las cuales el nan corresponde a prueba no aplicada
